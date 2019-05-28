@@ -5,7 +5,7 @@
 //! https://github.com/kodie/moment-holiday
 
 (function() {
-  var moment = (typeof require !== 'undefined' && require !== null) && !require.amd ? require('moment') : this.moment;
+  var moment = require('moment');
 
   var parserExtensions = [];
 
@@ -287,7 +287,7 @@
       try {
         var path = './locale/';
         if (__dirname.split('/').slice(-1).pop() == 'build') { path = '.' + path; }
-        require(path + locale);
+        require('./locale/united_states');
       } catch(e) { }
     }
 

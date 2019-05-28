@@ -3,6 +3,9 @@
 
 A [Moment.js](https://github.com/moment/moment) plugin for handling holidays.
 
+## NOTE
+THIS WAS HACKED TOGETHER TO WORK WITH WEBPACK - It only works for the united_states locale though
+
 ## Table of Contents
 * [Requirements](#requirements)
 * [Installation](#installation)
